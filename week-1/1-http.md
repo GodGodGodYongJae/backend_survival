@@ -2,7 +2,7 @@
 
 ## [**HTTP** ](#user-content-fn-1)[^1] **(HyperText Transfer Protocol)**
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p><a href="https://developer.mozilla.org/ko/docs/Web/HTTP">https://developer.mozilla.org/ko/docs/Web/HTTP</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p><a href="https://developer.mozilla.org/ko/docs/Web/HTTP">https://developer.mozilla.org/ko/docs/Web/HTTP</a></p></figcaption></figure>
 
 요약하자면,<mark style="background-color:orange;">**하이퍼 미디어(HyperText)를 전송하는 (Transper) 규약(**</mark>[<mark style="background-color:orange;">**Protocol**</mark>](#user-content-fn-2)[^2]<mark style="background-color:orange;">**)**</mark> 이다.
 
@@ -35,24 +35,55 @@
 
 
 
-이와 같이, 하이퍼 미디어를 온라인상으로  통신하기  위해선, Protocol을 지켜야한다.\
+이와 같이, <mark style="background-color:orange;">**하이퍼 미디어를 온라인상으로  통신하기  위해선, Protocol을 지켜야한다.**</mark>\
 그리고 아까와 같이 문자나 전화를 예시로 든 것 처럼, 어떤 통신을하냐에 따라 Protocol이 달라진다.
 
-#### OSI ([https://www.youtube.com/watch?v=1pfTxp25MA8](https://www.youtube.com/watch?v=1pfTxp25MA8)) 참고자료.
+### OSI
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p><a href="https://ko.wikipedia.org/wiki/OSI_%EB%AA%A8%ED%98%95">https://ko.wikipedia.org/wiki/OSI_%EB%AA%A8%ED%98%95</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p><a href="https://ko.wikipedia.org/wiki/OSI_%EB%AA%A8%ED%98%95">https://ko.wikipedia.org/wiki/OSI_%EB%AA%A8%ED%98%95</a></p></figcaption></figure>
 
 일단 정의는 위 사진과 같다. 하지만 설명이 조금 어려우니 쉽게 풀어 설명해보겠다.\
 우선 Protocol을 언급하였듯, 하이퍼 미디어를 온라인상 주고 받기 위해선 통신규약을 지켜야한다고 했다.\
 \
 하지만, OSI 계층은 그 이전의 문제를 조금 깊이 있게 다룬다고 생각해야한다.
 
-먼저 컴퓨터는 0과 1로 통신을 한다. 더 깊게 설명하면 전기 신호를 보내면 1, 보내지 않으면 0으로\
-인식하며 이것만으로도 다른 컴퓨터와 통신이 가능하다.
+#### 물리계층 (Physical layer)
 
-이를 OSI 계층 구조에선 물리 계층이라고 부르며,
+먼저 <mark style="background-color:orange;">**컴퓨터는 0과 1로 통신을 한다. 더 깊게 설명하면 전기 신호를 보내면 1, 보내지 않으면 0으로**</mark>\ <mark style="background-color:orange;">**인식하며 이것만으로도 다른 컴퓨터와 통신이 가능하다.**</mark>
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p><a href="https://developer.mozilla.org/ko/docs/Web/HTTP/Overview">https://developer.mozilla.org/ko/docs/Web/HTTP/Overview</a></p></figcaption></figure>
+<mark style="background-color:orange;">**이를 OSI 계층 구조에선 물리 계층이라고 부른다.**</mark>
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p><a href="https://www.youtube.com/watch?v=1pfTxp25MA8">https://www.youtube.com/watch?v=1pfTxp25MA8</a></p></figcaption></figure>
+
+위 사진에서의 핵심은, 두 대의 컴퓨터가 서로 통신할려면, 전선을 연결하고 주파수를 통해 통신을 할 수 있는데 이 주파수의 범위가 0\~무한대의 Hz를 가지기 때문에 이러한 전기신호를 통과시킬 수 있는 전선이\
+물리적으로 존재하지 않고, **이걸 아날로그 신호로 변화하여 이를 전선을 통해 보내고 다시금 수신받는**\
+**쪽에서 해석하여 데이터를 주고 받을 수 있다**. \
+\
+이를 요약하자면 아래와 같다.
+
+* 0과 1의 나열을 아날로그 신호로 바꾸어 전선으로 흘려보낸다 ( Encoding)
+* 아날로그 신호가 들어오면 0과 1의 나열로 해석한다 ( Decoding )
+* 물리적으로 연결된 두 대의 컴퓨터가 0과 1의 나열을 주고 받을 수 있게 된다.
+
+실제로 사용되는 곳은 하드웨어적으로 구현이 되어있다.
+
+#### 데이터 링크계층(Data Link Layout)
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+1계층에선, 두 대의 컴퓨터만 통신이 가능했다라고 한다면 여러 대의 컴퓨터가 통신을 하기 위해선\
+라우터와 같은 스위치가 필요하다. 이에 대한 자세한 설명은 참고 영상을 확인해주길 바라며, 이 계층에서의**핵심은 여러대의 컴퓨터가 동시에 데이터를 보냈을 때, 섞이지 않고 누가 어떤 걸 보냈는지 알기 위해 만들어졌다고 볼 수 있다.**
+
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+어떻게 누가  어떤   데이터를 보냈는지를    구분하는 방법은 위 사진과 같이 구분자를 넣고 데이터를 넣는데\
+좀 더 깊게 다루자면&#x20;
+
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p><a href="https://blog.naver.com/lunarispars/221436602441">https://blog.naver.com/lunarispars/221436602441</a></p></figcaption></figure>
+
+위 사진과 같이 MAC주소나 크기나 데이터등을 보내어 구분한다. MAC에 대해선 너무 많은 내용을 다루고 있기 때문에 우선은 누가 보냈는지 어디까지 보냈는지를 구분 할 수 있는 정도라 생각해두자.
+
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p><a href="https://developer.mozilla.org/ko/docs/Web/HTTP/Overview">https://developer.mozilla.org/ko/docs/Web/HTTP/Overview</a></p></figcaption></figure>
 
 [^1]: 
 
