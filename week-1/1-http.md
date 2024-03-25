@@ -71,7 +71,7 @@
 
 #### 데이터 링크계층(Data Link Layout)
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1계층에선, 두 대의 컴퓨터만 통신이 가능했다라고 한다면 여러 대의 컴퓨터가 통신을 하기 위해선\
 라우터와 같은 스위치가 필요하다. 이에 대한 자세한 설명은 참고 영상을 확인해주길 바라며, 이 계층에서의**핵심은 여러대의 컴퓨터가 동시에 데이터를 보냈을 때, 섞이지 않고 누가 어떤 걸 보냈는지 알기 위해 만들어졌다고 볼 수 있다.**
@@ -87,7 +87,7 @@
 
 #### 네트워크 계층
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 Data Link Layer 계층까진 라우터 즉, 물리적으로 라우터와전선이 연결이 가능한 공간에서의 통신이
 
@@ -102,7 +102,7 @@ Data Link Layer 계층까진 라우터 즉, 물리적으로 라우터와전선�
 
 #### Transport Layer
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 전송 계층은 간단하게 실행된여러 프로세스 중  어느 곳에 데이터를 적용해야할지 등을 Port를 통해  넣어준다.
 
