@@ -59,7 +59,7 @@ Client&#x20;
 
 ### Stateless(무상태)
 
-* HTTP 프로토콜은 **Stateless Protocol** 이므로 REST 역시 무상태성을 갖는다.
+* HTTP 프로토콜은[ **Stateless Protocol**](rest-representational-state-transfer.md#stateless) 이므로 REST 역시 무상태성을 갖는다.
 * Client의 context를 Server에 저장하지 않는다.
 * Server는 각각의 요청을 완전히 별개의 것으로 인식하고 처리한다.
 * 이전 요청이 다음 요청에 영향을 주면 안된다.
