@@ -8,3 +8,5 @@
     * [🟦 캡슐화와 정보은닉](week-2/1-api-application-programming-interface/undefined.md)
   * [🟩 #2 Architecture와 Architecture Style차이](week-2/2-architecture-architecture-style/README.md)
     * [🟦 REST(Representational State Transfer)](week-2/2-architecture-architecture-style/rest-representational-state-transfer.md)
+  * [🟨 #3 URI ( Uniform Resource Identifire)](week-2/3-uri-uniform-resource-identifire.md)
+  * [🟥 #4. MIME Type](week-2/4.-mime-type.md)

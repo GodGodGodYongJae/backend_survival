@@ -27,7 +27,7 @@
 
 위 두 개념을 간단히 코드로 표현해보자면 아래와 같다.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 위와 같이 classRoom에선, 철수 짱구 영희를 직접적으로 참조 받는 것이 아닌 그들을 공통적으로 묶은 student만 알면  되고, 그들의 장례희망 또한 각각 내부적으로 구현된 SpeakPlan을 구현해준 곳에서 알 수 있다.
 

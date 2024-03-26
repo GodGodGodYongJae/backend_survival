@@ -4,7 +4,7 @@
 
 > 학습 목표 - API에 대한 개념과 정의를 학습한다.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p><a href="https://ko.wikipedia.org/wiki/API">https://ko.wikipedia.org/wiki/API</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p><a href="https://ko.wikipedia.org/wiki/API">https://ko.wikipedia.org/wiki/API</a></p></figcaption></figure>
 
 API를 간단하게 정의 해보자면, 내부 동작은 숨기고 단순히 사용자가 호출(Call) 또는 요청에 반응 할 수 있도록 만든 하나의 규격서라 정의할 수 있다.\
 \
