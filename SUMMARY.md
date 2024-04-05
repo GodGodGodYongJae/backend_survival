@@ -11,3 +11,6 @@
     * [🟦 REST(Representational State Transfer)](week-2/2-architecture-architecture-style/rest-representational-state-transfer.md)
   * [🟨 #3 URI ( Uniform Resource Identifire)](week-2/3-uri-uniform-resource-identifire.md)
   * [🟥 #4. MIME Type](week-2/4.-mime-type.md)
+* [🗓️ Week 3](week-3/README.md)
+  * [🟥 DTO(Data transfer Object)](week-3/dto-data-transfer-object/README.md)
+    * [🟨 빈약한 도메인 모델(anemic domain model)](week-3/dto-data-transfer-object/anemic-domain-model.md)
