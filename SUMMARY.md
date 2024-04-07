@@ -14,3 +14,4 @@
 * [🗓️ Week 3](week-3/README.md)
   * [🟥 DTO(Data transfer Object)](week-3/dto-data-transfer-object/README.md)
     * [🟨 빈약한 도메인 모델(anemic domain model)](week-3/dto-data-transfer-object/anemic-domain-model.md)
+  * [🟥 Java Beans vs EJB](week-3/java-beans-vs-ejb.md)
