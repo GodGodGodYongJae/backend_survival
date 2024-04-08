@@ -16,4 +16,5 @@
     * [🟨 빈약한 도메인 모델(anemic domain model)](week-3/dto-data-transfer-object/anemic-domain-model.md)
   * [🟥 Java Beans vs EJB](week-3/java-beans-vs-ejb.md)
 * [🗓️ Week 4](week-4/README.md)
-  * [🟥 관심사 분리(Separation of concerns SoC)](week-4/separation-of-concerns-soc.md)
+  * [🟥 관심사 분리(Separation of concerns SoC)](week-4/separation-of-concerns-soc/README.md)
+    * [결합도](week-4/separation-of-concerns-soc/undefined.md)
