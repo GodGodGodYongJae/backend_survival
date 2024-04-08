@@ -40,14 +40,14 @@
 
 ### OSI
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption><p><a href="https://ko.wikipedia.org/wiki/OSI_%EB%AA%A8%ED%98%95">https://ko.wikipedia.org/wiki/OSI_%EB%AA%A8%ED%98%95</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption><p><a href="https://ko.wikipedia.org/wiki/OSI_%EB%AA%A8%ED%98%95">https://ko.wikipedia.org/wiki/OSI_%EB%AA%A8%ED%98%95</a></p></figcaption></figure>
 
 일단 정의는 위 사진과 같다. 하지만 설명이 조금 어려우니 쉽게 풀어 설명해보겠다.\
 우선 Protocol을 언급하였듯, 하이퍼 미디어를 온라인상 주고 받기 위해선 통신규약을 지켜야한다고 했다.\
 \
 하지만, OSI 계층은 그 이전의 문제를 조금 깊이 있게 다룬다고 생각해야한다.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p><a href="https://shlee0882.tistory.com/110">https://shlee0882.tistory.com/110</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p><a href="https://shlee0882.tistory.com/110">https://shlee0882.tistory.com/110</a></p></figcaption></figure>
 
 #### 물리계층 (Physical layer)
 
@@ -55,7 +55,7 @@
 
 <mark style="background-color:orange;">**이를 OSI 계층 구조에선 물리 계층이라고 부른다.**</mark>
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p><a href="https://www.youtube.com/watch?v=1pfTxp25MA8">https://www.youtube.com/watch?v=1pfTxp25MA8</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption><p><a href="https://www.youtube.com/watch?v=1pfTxp25MA8">https://www.youtube.com/watch?v=1pfTxp25MA8</a></p></figcaption></figure>
 
 위 사진에서의 핵심은, 두 대의 컴퓨터가 서로 통신할려면, 전선을 연결하고 주파수를 통해 통신을 할 수 있는데 이 주파수의 범위가 0\~무한대의 Hz를 가지기 때문에 이러한 전기신호를 통과시킬 수 있는 전선이\
 물리적으로 존재하지 않고, **이걸 아날로그 신호로 변화하여 이를 전선을 통해 보내고 다시금 수신받는**\
@@ -71,12 +71,12 @@
 
 #### 데이터 링크계층(Data Link Layout)
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1계층에선, 두 대의 컴퓨터만 통신이 가능했다라고 한다면 여러 대의 컴퓨터가 통신을 하기 위해선\
 라우터와 같은 스위치가 필요하다. 이에 대한 자세한 설명은 참고 영상을 확인해주길 바라며, 이 계층에서의**핵심은 여러대의 컴퓨터가 동시에 데이터를 보냈을 때, 섞이지 않고 누가 어떤 걸 보냈는지 알기 위해 만들어졌다고 볼 수 있다.**
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 어떻게 누가  어떤   데이터를 보냈는지를    구분하는 방법은 위 사진과 같이 구분자를 넣고 데이터를 넣는데\
 좀 더 깊게 다루자면&#x20;
@@ -87,7 +87,7 @@
 
 #### 네트워크 계층
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Data Link Layer 계층까진 라우터 즉, 물리적으로 라우터와전선이 연결이 가능한 공간에서의 통신이
 
@@ -102,11 +102,11 @@ Data Link Layer 계층까진 라우터 즉, 물리적으로 라우터와전선�
 
 #### Transport Layer
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 전송 계층은 간단하게 실행된여러 프로세스 중  어느 곳에 데이터를 적용해야할지 등을 Port를 통해  넣어준다.
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 현재에 이르러서는 OSI 모델을사용하지 않고 TCP/IP 모델을 사용한다.  그리고 5계층과 6계층이
 
@@ -118,7 +118,7 @@ Application Layer
 
 그리고 7계층이 바로 앞서 설명했던 HTTP와 같은 프로토콜을 통해, 웹 상에서 하이퍼텍스트를 서로 주고 받을 수 있게 된다.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p><a href="https://developer.mozilla.org/ko/docs/Web/HTTP/Overview">https://developer.mozilla.org/ko/docs/Web/HTTP/Overview</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption><p><a href="https://developer.mozilla.org/ko/docs/Web/HTTP/Overview">https://developer.mozilla.org/ko/docs/Web/HTTP/Overview</a></p></figcaption></figure>
 
 [^1]: 
 
