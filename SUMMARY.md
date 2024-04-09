@@ -18,3 +18,4 @@
 * [🗓️ Week 4](week-4/README.md)
   * [🟥 관심사 분리(Separation of concerns SoC)](week-4/separation-of-concerns-soc/README.md)
     * [결합도](week-4/separation-of-concerns-soc/undefined.md)
+    * [응집도](week-4/separation-of-concerns-soc/undefined-1.md)
