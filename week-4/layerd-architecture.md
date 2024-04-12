@@ -3,7 +3,7 @@ description: >-
   https://velog.io/@gmtmoney2357/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98-%EB%A0%88%EC%9D%B4%EC%96%B4%EB%93%9C-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98Layered-archi
 ---
 
-# Layerd Architecture
+# 🟥 Layerd Architecture
 
 ### 레이어 분리
 
@@ -11,11 +11,11 @@ description: >-
    로 나눈다.
 2. 각 레이어는 애플리케이션에서 레이어 별로 책임져야할 부분을 책임지고 수행한다.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### 관심사 분리
 
-1. [중요한 특징은 관심사의 분리이다. (  SoC )](week-4/separation-of-concerns-soc/)
+1. [중요한 특징은 관심사의 분리이다. (  SoC )](separation-of-concerns-soc/)
 2. 비지니스 레이어는 데이터를 어떻게 받아야하며, 어떻게 보여줄지 관여 할 필요가 없다.
 3. 따라서 기술적 부분에 집중할 수 있지만 , 변화에 반응하는 능력(민첩성)은 떨어진다는 단점이있다.
 

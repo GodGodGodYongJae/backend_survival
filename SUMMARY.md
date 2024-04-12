@@ -19,4 +19,4 @@
   * [🟥 관심사 분리(Separation of concerns SoC)](week-4/separation-of-concerns-soc/README.md)
     * [결합도](week-4/separation-of-concerns-soc/undefined.md)
     * [응집도](week-4/separation-of-concerns-soc/undefined-1.md)
-* [Layerd Architecture](layerd-architecture.md)
+  * [🟥 Layerd Architecture](week-4/layerd-architecture.md)
