@@ -195,4 +195,29 @@ class SetProp {
 }
 ```
 
-필자는사실상 응집도에 관련해선 해당 논리적 응집도를 발견하면 무조건 리팩토링을 한다. switch 문은 유지보수 때 어려움을 주며 하드코딩 된 저 부분도 어떻게든 고친다.
+필자는 사실상 응집도에 관련해선 해당 논리적 응집도를 발견하면 무조건 리팩토링을 한다. switch 문은 유지보수 때 어려움을 주며 하드코딩 된 저 부분도 어떻게든 고친다.
+
+
+
+### 우연적 응집도 ( Conicidental Cohesion )
+
+1. 가장 좋지 않은 응집도
+2. 모듈 내부의 각 구성 요소들이 서로 관련없는 요소로만 구성된 경우&#x20;
+
+```java
+// Some code
+class Coincidental extends RecordProcess {
+    int average, totalScore;
+    boolean done;
+    Letter l;
+
+    void doStuff() {
+    	// 무지성으로 서로 관련 없는 코드를 한 모듈안에 모아 실행
+        readRecords();
+        average = totalScore / 10;
+        l.printNames();
+        done = true;
+        return;
+    }
+}
+```
