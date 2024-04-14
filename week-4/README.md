@@ -7,12 +7,12 @@
 * 결합도[^3]
 * [Layered Atchitecture](#user-content-fn-4)[^4]
 * UUID[^5]
-* DAO(Data Access Object)
-* List[^6]
-* Map[^7]
-* Domain Model 이란
-* Repository
-* VO(Value Object)
+* [DAO(Data Access Object)](#user-content-fn-6)[^6]
+* List[^7]
+* Map[^8]
+* [Domain Model 이란](#user-content-fn-9)[^9]
+* Repository[^10]
+* [VO(Value Object)](#user-content-fn-11)[^11]
 
 [^1]: [컴퓨터 과학](https://ko.wikipedia.org/wiki/%EC%BB%B4%ED%93%A8%ED%84%B0\_%EA%B3%BC%ED%95%99)에서 관심사 분리(separation of concerns, SoC)는 [컴퓨터 프로그램](https://ko.wikipedia.org/wiki/%EC%BB%B4%ED%93%A8%ED%84%B0\_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8)을 구별된 부분으로 분리시키는 디자인 원칙으로, 각 부문은 개개의 [관심사](https://ko.wikipedia.org/wiki/%EA%B4%80%EC%8B%AC%EC%82%AC)를 해결한다.
 
@@ -33,6 +33,14 @@
     * 범용 고유 식별자를 의미하며 중복이 되지 않는 유일한 값을 구성하고자 할때 주로 사용이 되는 고유 식별자를 의미합니다.
     * 주로 세션 식별자, 쿠키 값, 무작위 데이터베이스 키 등에 사용이 됩니다.
 
-[^6]: List란 동적배열이다. 특징으로는, 랜덤 인덱스 접근이 가능하다. 카피시티가 모두 차면 2배가 되는 카파시티를 할당하고 값 복사를 시전한다. 조회는 빠르지만, 삭제 삽입이 어렵다.
+[^6]: 인터페이스와 DataSource(데이터소스)와 연결하여 처리되는 부분을 분리시켜 데이터베이스가 변경(다른 데이터베이스로 변경, 테이블 변경, 칼럼 변경) 되거나 처리 방식이 변경(쿼리 변경) 되더라도 인터페이스는 변경되지 않기 때문에 비즈니스 로직에는 영향을 주지 않는다.
 
-[^7]: Map이란 Hash Table로 Key Value로 되어있는 자료구조이다. key로 접근이 가능하다.
+[^7]: List란 동적배열이다. 특징으로는, 랜덤 인덱스 접근이 가능하다. 카피시티가 모두 차면 2배가 되는 카파시티를 할당하고 값 복사를 시전한다. 조회는 빠르지만, 삭제 삽입이 어렵다.
+
+[^8]: Map이란 Hash Table로 Key Value로 되어있는 자료구조이다. key로 접근이 가능하다.
+
+[^9]: Domain Model이란 해당 도메인에서 **비즈니스적인 의미를 가지는** object다.
+
+[^10]: 
+
+[^11]: * 특별히 비즈니스 적인 의미를 가지지 않아도, 데이터 뭉치를 하나로 묶어주는 클래스도 VO로 본다
