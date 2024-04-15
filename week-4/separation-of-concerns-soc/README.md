@@ -14,7 +14,7 @@ description: >-
 
 ### 응집도 결합도
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p><a href="https://medium.com/@onuryanar/separation-of-concerns-eca786e75f5a">https://medium.com/@onuryanar/separation-of-concerns-eca786e75f5a</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p><a href="https://medium.com/@onuryanar/separation-of-concerns-eca786e75f5a">https://medium.com/@onuryanar/separation-of-concerns-eca786e75f5a</a></p></figcaption></figure>
 
 결합도는  서로 다른 모듈간의 의존 정도를(커플링) 의미하며,  응집은 같은 모듈 내의 구성 요소들 간의 연관 정도를 의미한다.
 

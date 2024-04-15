@@ -20,3 +20,5 @@
     * [결합도](week-4/separation-of-concerns-soc/undefined.md)
     * [응집도](week-4/separation-of-concerns-soc/undefined-1.md)
   * [🟥 Layerd Architecture](week-4/layerd-architecture.md)
+* [🗓️ Week 5](week-5/README.md)
+  * [🟥 Spring AOP ( Aspect Oriented Programming )](week-5/spring-aop-aspect-oriented-programming.md)
