@@ -22,3 +22,7 @@
   * [🟥 Layerd Architecture](week-4/layerd-architecture.md)
 * [🗓️ Week 5](week-5/README.md)
   * [🟥 Spring AOP ( Aspect Oriented Programming )](week-5/spring-aop-aspect-oriented-programming.md)
+  * [🟥 IoC(Inversion of Control)](week-5/ioc-inversion-of-control/README.md)
+    * [🟥 DI(Dependency Injection )](week-5/ioc-inversion-of-control/di-dependency-injection/README.md)
+      * [🟦 싱글톤 패턴](week-5/ioc-inversion-of-control/di-dependency-injection/undefined/README.md)
+        * [Bean Factory](week-5/ioc-inversion-of-control/di-dependency-injection/undefined/bean-factory.md)

@@ -11,7 +11,7 @@ description: >-
    로 나눈다.
 2. 각 레이어는 애플리케이션에서 레이어 별로 책임져야할 부분을 책임지고 수행한다.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 관심사 분리
 
