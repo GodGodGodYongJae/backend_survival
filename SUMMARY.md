@@ -26,3 +26,7 @@
     * [🟥 DI(Dependency Injection )](week-5/ioc-inversion-of-control/di-dependency-injection/README.md)
       * [🟦 싱글톤 패턴](week-5/ioc-inversion-of-control/di-dependency-injection/undefined/README.md)
         * [Bean Factory](week-5/ioc-inversion-of-control/di-dependency-injection/undefined/bean-factory.md)
+  * [🟥 Test](week-5/test.md)
+  * [🟦 E2E 테스트](week-5/e2e/README.md)
+    * [🟦 Unit Test ( 단위 테스트 )](week-5/e2e/unit-test.md)
+    * [🟦 Integration Test ( 통합 테스트 )](week-5/e2e/integration-test.md)
