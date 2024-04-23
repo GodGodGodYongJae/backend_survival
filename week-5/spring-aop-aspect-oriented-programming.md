@@ -10,7 +10,7 @@ AOP는 관점 (Aspect) 지향 프로그래밍으로 관점을 기준으로 다�
 
 ### 목적
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p><a href="https://velog.io/@kai6666/Spring-Spring-AOP-%EA%B0%9C%EB%85%90">https://velog.io/@kai6666/Spring-Spring-AOP-%EA%B0%9C%EB%85%90</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p><a href="https://velog.io/@kai6666/Spring-Spring-AOP-%EA%B0%9C%EB%85%90">https://velog.io/@kai6666/Spring-Spring-AOP-%EA%B0%9C%EB%85%90</a></p></figcaption></figure>
 
 보통 관심사를 분리하기 위해 Layerd Architecture를 사용할텐데,
 

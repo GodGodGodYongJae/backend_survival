@@ -36,3 +36,4 @@
       * [데이터베이스 언어 (DDL, DML, DCL)](week-6/data-base/dbms-database-management-system/ddl-dml-dcl/README.md)
         * [SQL](week-6/data-base/dbms-database-management-system/ddl-dml-dcl/sql.md)
     * [RDBMS(Relational Database Management System)](week-6/data-base/rdbms-relational-database-management-system.md)
+    * [Entity Relationship Model](week-6/data-base/entity-relationship-model.md)

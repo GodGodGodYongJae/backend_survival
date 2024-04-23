@@ -6,15 +6,15 @@
 
 가장 일반적으로 URL을 사용한다.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 구성요소
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 인증, 도메인 주소를 넣거나 IP 주소를 사용한다.
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 포트, 리소스에 접근하는 게이트를 나타낸다. 일반적으로 HTTP 80, HTTPS 443을 사용하여 리소스에 접근하며,  웹  서버가 표준 포트를 사용한다면 일반적으로 생략된다.
 

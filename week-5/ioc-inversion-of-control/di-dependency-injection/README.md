@@ -16,7 +16,7 @@
 
 interface를 사용하여 결합을 느슨하게 풀어줄 수 있다.
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p><a href="https://www.martinfowler.com/articles/injection.html">https://www.martinfowler.com/articles/injection.html</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p><a href="https://www.martinfowler.com/articles/injection.html">https://www.martinfowler.com/articles/injection.html</a></p></figcaption></figure>
 
 위 사진을 보면 MovieLister는 Movie Finder라는 인터페이스를 바라보고 있으며
 
@@ -28,7 +28,7 @@ interface를 사용하여 결합을 느슨하게 풀어줄 수 있다.
 
 그럼, MovieFinder를 상속받은 객체 즉 구현부가 여러개라고 한다면 어떤형태로 movie Lister가 알 수 있을까?
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 여러가지 방법이 있겠지만, 보편적으로 [Singleton](undefined/)으로 등록해주고 런타임 때, 구현부를 하나 생성한 뒤.
 
